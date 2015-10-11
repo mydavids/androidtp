@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tpapp.yusiry.cput.za.ac.constructionmanagementapplication" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="tpapp.yusiry.cput.za.ac.constructionmanagementapplication.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="tpapp.yusiry.cput.za.ac.constructionmanagementapplication.ActivityAddSite"
+            android:label="@string/title_activity_activity_add_site" >
+        </activity>
+        <activity
+            android:name="tpapp.yusiry.cput.za.ac.constructionmanagementapplication.ActivitySiteList"
+            android:label="@string/title_activity_activity_view_sites" >
+        </activity>
+        <activity
+            android:name=".ActivityTestSites"
+            android:label="@string/title_activity_activity_test_sites" >
+        </activity>
+        <activity
+            android:name="tpapp.yusiry.cput.za.ac.constructionmanagementapplication.ActivityStaffList"
+            android:label="@string/title_activity_activity_staff_list" >
+        </activity>
+        <activity
+            android:name="tpapp.yusiry.cput.za.ac.constructionmanagementapplication.ActivityContractorList"
+            android:label="@string/title_activity_activity_contractor_list" >
+        </activity>
+        <activity
+            android:name=".Activity_Add_Staff"
+            android:label="@string/title_activity_activity__add__staff" >
+        </activity>
+        <activity
+            android:name="tpapp.yusiry.cput.za.ac.constructionmanagementapplication.ActivityAddContractor"
+            android:label="@string/title_activity_activity_add_contractor" >
+        </activity>
+        <activity
+            android:name="tpapp.yusiry.cput.za.ac.constructionmanagementapplication.ActivityAddStaff2"
+            android:label="@string/title_activity_activity_add_staff2" >
+        </activity>
+    </application>
+
+</manifest>
